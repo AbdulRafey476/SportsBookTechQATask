@@ -1,0 +1,57 @@
+group 'SportsBookTechQATasks'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'http://www.soapui.org/repository/maven2/' }
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        compile group: 'org.apache.maven', name: 'maven-plugin-api', version: '3.5.2'
+        compile 'com.google.code.gson:gson:2.8.2'
+        compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+
+
+        compile group: 'net.aksingh', name: 'owm-japis', version: '2.5.2.1'
+
+
+
+        compile 'com.github.satyan:sugar:1.4'
+        compile 'com.github.bumptech.glide:glide:3.7.0'
+
+
+
+// https://mvnrepository.com/artifact/org.symphonyoss.symphony/jcurl
+        compile group: 'org.symphonyoss.symphony', name: 'jcurl', version: '0.9.10'
+
+
+
+        testCompile group: 'com.github.javafaker', name: 'javafaker', version: '0.14'
+        compile group: 'org.fluttercode.datafactory', name: 'datafactory', version: '0.8'
+        compile 'io.codearte.jfairy:jfairy:0.5.9'
+        compile 'com.imsweb:data-generator:1.2'
+
+        compile group: 'net.java.dev.jgoodies', name: 'looks', version: '2.1.4'
+        compile group: 'com.fifesoft', name: 'rsyntaxtextarea', version: 'r239'
+        compile group: 'org.apache.karaf.eik.plugins', name: 'org.apache.commons.collections', version: '3.2.1'
+
+        compile("com.smartbear.soapui:soapui-project:5.4.0 ") {
+            exclude group: 'com.jgoodies', module: 'forms'
+            exclude group: 'com.jgoodies', module: 'looks'
+            exclude group: 'com.jgoodies', module: 'binding'
+        }
+    }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.jgoodies:binding:2.0.1',
+                    'com.jgoodies:forms:1.0.7',
+                    'com.jgoodies:looks:2.2.0'
+        }
+    }
+

@@ -1,0 +1,7 @@
+Person 1
+Name : Brittaney
+City : Konyshevka
+Country : RU
+Gross Annual Income : 85718.93 RUB
+Gross Annual Income in EUR : 1223.813EUR
+Weekly Income in EUR : 24 EUR

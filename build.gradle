@@ -1,13 +1,28 @@
 group 'SportsBookTechQATasks'
 version '1.0-SNAPSHOT'
 
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'http://smartbearsoftware.com/repository/maven2/' }
+    }
+    dependencies {
+        classpath('gradle.plugin.io.byteshifter:soapui-gradle-plugin:5.3.1-RC')
+    }
+}
+
+apply plugin: io.byteshifter.plugins.soapui.SoapUIPlugin
+
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
     repositories {
+        jcenter()
         maven { url 'https://plugins.gradle.org/m2/' }
         maven { url 'http://www.soapui.org/repository/maven2/' }
+        maven { url 'http://smartbearsoftware.com/repository/maven2/' }
         mavenCentral()
     }
 
@@ -16,26 +31,6 @@ sourceCompatibility = 1.8
         compile group: 'org.apache.maven', name: 'maven-plugin-api', version: '3.5.2'
         compile 'com.google.code.gson:gson:2.8.2'
         compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
-
-
-        compile group: 'net.aksingh', name: 'owm-japis', version: '2.5.2.1'
-
-
-
-        compile 'com.github.satyan:sugar:1.4'
-        compile 'com.github.bumptech.glide:glide:3.7.0'
-
-
-
-// https://mvnrepository.com/artifact/org.symphonyoss.symphony/jcurl
-        compile group: 'org.symphonyoss.symphony', name: 'jcurl', version: '0.9.10'
-
-
-
-        testCompile group: 'com.github.javafaker', name: 'javafaker', version: '0.14'
-        compile group: 'org.fluttercode.datafactory', name: 'datafactory', version: '0.8'
-        compile 'io.codearte.jfairy:jfairy:0.5.9'
-        compile 'com.imsweb:data-generator:1.2'
 
         compile group: 'net.java.dev.jgoodies', name: 'looks', version: '2.1.4'
         compile group: 'com.fifesoft', name: 'rsyntaxtextarea', version: 'r239'
@@ -46,6 +41,14 @@ sourceCompatibility = 1.8
             exclude group: 'com.jgoodies', module: 'looks'
             exclude group: 'com.jgoodies', module: 'binding'
         }
+
+        compile group: 'com.github.redfish4ktc.soapui', name: 'soapui', version: '4.0.1.0'
+        compile group: 'com.jgoodies', name: 'jgoodies-looks', version: '2.2.0'
+        compile group: 'net.sf.squirrel-sql.thirdparty-non-maven', name: 'com-fifesoft-rsyntaxtextarea', version: '1.0.0'
+        compile group: 'org.apache.karaf.eik.plugins', name: 'org.apache.commons.collections', version: '3.2.1'
+
+        classpath('gradle.plugin.io.byteshifter:soapui-gradle-plugin:5.3.1-RC')
+
     }
     configurations.all {
         resolutionStrategy {

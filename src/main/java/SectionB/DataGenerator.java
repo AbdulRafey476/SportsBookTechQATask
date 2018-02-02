@@ -29,5 +29,7 @@ public class DataGenerator {
                 e.printStackTrace();
             }
         }
+
+        System.out.println("Data generator successfully saved to src/main/resources/randomizedPeopleDataset.json");
     }
 }

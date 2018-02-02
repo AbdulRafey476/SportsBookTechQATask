@@ -11,16 +11,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class WeatherRequest {
+public class OpenWeatherMapRequest {
+static String urlWeatherForecast = "http://api.openweathermap.org/data/2.5/forecast?q=";
+static String urlCurrentWeather = "http://api.openweathermap.org/data/2.5/weather?q=";
+static String token = "&appid=62f337782478a6160a252c0fe01dd56b";
 
-	static Logger logger = Logger.getLogger(WeatherRequest.class.getName());
+	static Logger logger = Logger.getLogger(OpenWeatherMapRequest.class.getName());
 
 	public static List<String> cityWeatherForecastList(String city, String country) {
 
 		try {
 
-			URL url = new URL("http://api.openweathermap.org/data/2.5/forecast?q="
-					+ city + "," + country + "&appid=b6907d289e10d714a6e88b30761fae22");
+			URL url = new URL(urlWeatherForecast + city + ","
+					+ country + token);
 
 			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			String jsonLine = reader.readLine();
@@ -47,7 +50,7 @@ public class WeatherRequest {
 					}
 
 					if (i == 7) {
-						logger.info("Weather forecast for" + city);
+						logger.info("Weather forecast for " + city);
 						break;
 
 					}
@@ -70,8 +73,8 @@ public class WeatherRequest {
 
 		try {
 
-			URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q="
-					+ city + "," + country + "&appid=b6907d289e10d714a6e88b30761fae22");
+			URL url = new URL(urlCurrentWeather + city + ","
+					+ country + token);
 
 			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			String jsonLine = reader.readLine();
@@ -89,7 +92,7 @@ public class WeatherRequest {
 					JSONObject jsonObjectWeather = (JSONObject) JSONValue.parse(jsonStringFromjsonArrayList);
 					currentWeatherDesc = (String) jsonObjectWeather.get("main");
 				}
-				logger.info("Current weather for" + city);
+				logger.info("Current weather for " + city);
 				return currentWeatherDesc.toLowerCase();
 
 			} else {

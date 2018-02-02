@@ -1,7 +1,51 @@
-Person 1
-Name : Brittaney
-City : Konyshevka
-Country : RU
-Gross Annual Income : 85718.93 RUB
-Gross Annual Income in EUR : 1223.813EUR
-Weekly Income in EUR : 24 EUR
+Sunny city advice 1
+Name : Rosamond
+City : Conselheiro Lafaiete
+Country : BR
+Gross Annual Income : 25015.91 BRL
+Gross Annual Income in EUR : 6326.257 EUR
+Weekly Income in EUR : 122 EUR
+Person is not in sunny city
+Recommended sunny city/cities: 
+Primero de Mayo,Villa María,San Rafael,Lady Grey,Khandagayty,Temirtau,Yashalta,Cikiruh,Turbiv,Ituzaingó,San Vicente,Negreiros,Candoso,Armamar,Ban Kruat,Owo,Chicago,Chendian,Santa Ana,Pasto,Krasnoye,Jeremoabo,Gucheng,Loikaw,Castanheira,Pidvynohradiv,Téra,Lipinki Łużyckie,Dunaivtsi,Puyang,Marseille,Aizhai,Mandalgovi,Obubra,Margamukti,Yunlu,Quilino,Svetlograd,Mercedes,Longar,Lakota,Campos,Melita,Mama,Kolsko,Shijia,20 de Noviembre,Los Charrúas,Yaviza,Chicago,Kushar,Daojiang,Lafia,Lourido,Kandhkot,Xiantang,Buenos Aires,Si Sa Ket,Grand Junction,Montpellier,Colorado Springs,Arroio do Meio,Granada,Duas Igrejas,Dongmaku,El Paso,Bol,San Martín,Sanquan,Presidencia Roque Sáenz Peña,Zhaobei,Zhoutou,Mandeni,Aix-en-Provence,Tolstoy-Yurt,Ayorou,Boticas,Eirol,Sertânia,Dzerzhinskiy,Trzcinica,Nantes,Sezures,Yerazgavors,Villa Cañás,Soito,Floirac,Cervantes,Noisy-le-Grand,Vargem Grande,Emiliano Zapata,Meudon,Lanhas,Castanheira,Jinxiu,Palmeira das Missões,Sinchao,El Refugio,Pali,General Alvear,Arroyo Seco,Estancia,Xinhuang,Estoi,Tekes,Torre,Fandriana,Tiro,Eirado,Xin’an,Vila Real de Santo António,São Paio de Gramaços,Las Varillas,Camilo Aldao,Ordem,Skovorodino,Shijia,Ash Sharyah,Tupesy,Dizhai,Altagracia de Orituco,Chapecó,Aktogay,Bucay,Porto Feliz,Moyale,Kuma,Al Ghayl,Basoko,Grand Forks,Slavgorod,Eshan,Bemposta,Vitrolles,Kadupayung,Colonia Aurora,Sobreira,Yingchengzi,Yuhuangding,Zhaitou,Kadujajar,Loma Bonita,Jinshan,Pyrzyce,Lorut,Bazhu,Pingle,Olival,Mina Clavero,Donskoye,Marseille,Iracemápolis,Yijing,Arevshat,Salon-de-Provence,Niba,Badong,Ceres,Guzhen,Berlín,Arrabal,Lodwar,San Carlos,Nieszawa,Villa Mercedes,Shijia,Esquipulas,Suvorovskaya,Campo Viera,Noyakert,Viseu,Qingzhou,Telč,Kankan,Zhangdian,Jaroměř,Toulon,La Trinidad,Carvalhal,Coronel Vivida,Migori,Chư Sê,Puyang,Polkowice,Várzea,El Triunfo,Widuchowa,Ganhe,La Garenne-Colombes,Jucás,Avelar,Mahendranagar,Patani,Qiryat Yam,Lajeosa do Mondego,Fundong,Maia,Santa Elena,Opatovice nad Labem,Casal,Las Toscas,Uzdin,Kälviä,Marinha,Gelemso,Heze,Maringá
+#######################################
+Sunny city advice 2
+Name : Rivi
+City : Primero de Mayo
+Country : MX
+Gross Annual Income : 72943.99 MXN
+Gross Annual Income in EUR : 3169.386 EUR
+Weekly Income in EUR : 61 EUR
+Person is not in sunny city
+Recommended sunny city/cities: 
+Primero de Mayo,Villa María,San Rafael,Lady Grey,Khandagayty,Temirtau,Yashalta,Cikiruh,Turbiv,Ituzaingó,San Vicente,Negreiros,Candoso,Armamar,Ban Kruat,Owo,Chicago,Chendian,Santa Ana,Pasto,Krasnoye,Jeremoabo,Gucheng,Loikaw,Castanheira,Pidvynohradiv,Téra,Lipinki Łużyckie,Dunaivtsi,Puyang,Marseille,Aizhai,Mandalgovi,Obubra,Margamukti,Yunlu,Quilino,Svetlograd,Mercedes,Longar,Lakota,Campos,Melita,Mama,Kolsko,Shijia,20 de Noviembre,Los Charrúas,Yaviza,Chicago,Kushar,Daojiang,Lafia,Lourido,Kandhkot,Xiantang,Buenos Aires,Si Sa Ket,Grand Junction,Montpellier,Colorado Springs,Arroio do Meio,Granada,Duas Igrejas,Dongmaku,El Paso,Bol,San Martín,Sanquan,Presidencia Roque Sáenz Peña,Zhaobei,Zhoutou,Mandeni,Aix-en-Provence,Tolstoy-Yurt,Ayorou,Boticas,Eirol,Sertânia,Dzerzhinskiy,Trzcinica,Nantes,Sezures,Yerazgavors,Villa Cañás,Soito,Floirac,Cervantes,Noisy-le-Grand,Vargem Grande,Emiliano Zapata,Meudon,Lanhas,Castanheira,Jinxiu,Palmeira das Missões,Sinchao,El Refugio,Pali,General Alvear,Arroyo Seco,Estancia,Xinhuang,Estoi,Tekes,Torre,Fandriana,Tiro,Eirado,Xin’an,Vila Real de Santo António,São Paio de Gramaços,Las Varillas,Camilo Aldao,Ordem,Skovorodino,Shijia,Ash Sharyah,Tupesy,Dizhai,Altagracia de Orituco,Chapecó,Aktogay,Bucay,Porto Feliz,Moyale,Kuma,Al Ghayl,Basoko,Grand Forks,Slavgorod,Eshan,Bemposta,Vitrolles,Kadupayung,Colonia Aurora,Sobreira,Yingchengzi,Yuhuangding,Zhaitou,Kadujajar,Loma Bonita,Jinshan,Pyrzyce,Lorut,Bazhu,Pingle,Olival,Mina Clavero,Donskoye,Marseille,Iracemápolis,Yijing,Arevshat,Salon-de-Provence,Niba,Badong,Ceres,Guzhen,Berlín,Arrabal,Lodwar,San Carlos,Nieszawa,Villa Mercedes,Shijia,Esquipulas,Suvorovskaya,Campo Viera,Noyakert,Viseu,Qingzhou,Telč,Kankan,Zhangdian,Jaroměř,Toulon,La Trinidad,Carvalhal,Coronel Vivida,Migori,Chư Sê,Puyang,Polkowice,Várzea,El Triunfo,Widuchowa,Ganhe,La Garenne-Colombes,Jucás,Avelar,Mahendranagar,Patani,Qiryat Yam,Lajeosa do Mondego,Fundong,Maia,Santa Elena,Opatovice nad Labem,Casal,Las Toscas,Uzdin,Kälviä,Marinha,Gelemso,Heze,Maringá
+#######################################
+Sunny city advice 3
+Name : Reade
+City : Verdun
+Country : FR
+Gross Annual Income : 38997.36 EUR
+Gross Annual Income in EUR : 38997.36 EUR
+Weekly Income in EUR : 750 EUR
+Person is not in sunny city
+Recommended sunny city/cities: 
+Primero de Mayo,Villa María,San Rafael,Lady Grey,Khandagayty,Temirtau,Yashalta,Cikiruh,Turbiv,Ituzaingó,San Vicente,Negreiros,Candoso,Armamar,Ban Kruat,Owo,Chicago,Chendian,Santa Ana,Pasto,Krasnoye,Jeremoabo,Gucheng,Loikaw,Castanheira,Pidvynohradiv,Téra,Lipinki Łużyckie,Dunaivtsi,Puyang,Marseille,Aizhai,Mandalgovi,Obubra,Margamukti,Yunlu,Quilino,Svetlograd,Mercedes,Longar,Lakota,Campos,Melita,Mama,Kolsko,Shijia,20 de Noviembre,Los Charrúas,Yaviza,Chicago,Kushar,Daojiang,Lafia,Lourido,Kandhkot,Xiantang,Buenos Aires,Si Sa Ket,Grand Junction,Montpellier,Colorado Springs,Arroio do Meio,Granada,Duas Igrejas,Dongmaku,El Paso,Bol,San Martín,Sanquan,Presidencia Roque Sáenz Peña,Zhaobei,Zhoutou,Mandeni,Aix-en-Provence,Tolstoy-Yurt,Ayorou,Boticas,Eirol,Sertânia,Dzerzhinskiy,Trzcinica,Nantes,Sezures,Yerazgavors,Villa Cañás,Soito,Floirac,Cervantes,Noisy-le-Grand,Vargem Grande,Emiliano Zapata,Meudon,Lanhas,Castanheira,Jinxiu,Palmeira das Missões,Sinchao,El Refugio,Pali,General Alvear,Arroyo Seco,Estancia,Xinhuang,Estoi,Tekes,Torre,Fandriana,Tiro,Eirado,Xin’an,Vila Real de Santo António,São Paio de Gramaços,Las Varillas,Camilo Aldao,Ordem,Skovorodino,Shijia,Ash Sharyah,Tupesy,Dizhai,Altagracia de Orituco,Chapecó,Aktogay,Bucay,Porto Feliz,Moyale,Kuma,Al Ghayl,Basoko,Grand Forks,Slavgorod,Eshan,Bemposta,Vitrolles,Kadupayung,Colonia Aurora,Sobreira,Yingchengzi,Yuhuangding,Zhaitou,Kadujajar,Loma Bonita,Jinshan,Pyrzyce,Lorut,Bazhu,Pingle,Olival,Mina Clavero,Donskoye,Marseille,Iracemápolis,Yijing,Arevshat,Salon-de-Provence,Niba,Badong,Ceres,Guzhen,Berlín,Arrabal,Lodwar,San Carlos,Nieszawa,Villa Mercedes,Shijia,Esquipulas,Suvorovskaya,Campo Viera,Noyakert,Viseu,Qingzhou,Telč,Kankan,Zhangdian,Jaroměř,Toulon,La Trinidad,Carvalhal,Coronel Vivida,Migori,Chư Sê,Puyang,Polkowice,Várzea,El Triunfo,Widuchowa,Ganhe,La Garenne-Colombes,Jucás,Avelar,Mahendranagar,Patani,Qiryat Yam,Lajeosa do Mondego,Fundong,Maia,Santa Elena,Opatovice nad Labem,Casal,Las Toscas,Uzdin,Kälviä,Marinha,Gelemso,Heze,Maringá
+#######################################
+Sunny city advice 4
+Name : Clem
+City : Tyszowce
+Country : PL
+Gross Annual Income : 32278.83 PLN
+Gross Annual Income in EUR : 7760.081 EUR
+Weekly Income in EUR : 149 EUR
+Person is not in sunny city
+Recommended sunny city/cities: 
+Primero de Mayo,Villa María,San Rafael,Lady Grey,Khandagayty,Temirtau,Yashalta,Cikiruh,Turbiv,Ituzaingó,San Vicente,Negreiros,Candoso,Armamar,Ban Kruat,Owo,Chicago,Chendian,Santa Ana,Pasto,Krasnoye,Jeremoabo,Gucheng,Loikaw,Castanheira,Pidvynohradiv,Téra,Lipinki Łużyckie,Dunaivtsi,Puyang,Marseille,Aizhai,Mandalgovi,Obubra,Margamukti,Yunlu,Quilino,Svetlograd,Mercedes,Longar,Lakota,Campos,Melita,Mama,Kolsko,Shijia,20 de Noviembre,Los Charrúas,Yaviza,Chicago,Kushar,Daojiang,Lafia,Lourido,Kandhkot,Xiantang,Buenos Aires,Si Sa Ket,Grand Junction,Montpellier,Colorado Springs,Arroio do Meio,Granada,Duas Igrejas,Dongmaku,El Paso,Bol,San Martín,Sanquan,Presidencia Roque Sáenz Peña,Zhaobei,Zhoutou,Mandeni,Aix-en-Provence,Tolstoy-Yurt,Ayorou,Boticas,Eirol,Sertânia,Dzerzhinskiy,Trzcinica,Nantes,Sezures,Yerazgavors,Villa Cañás,Soito,Floirac,Cervantes,Noisy-le-Grand,Vargem Grande,Emiliano Zapata,Meudon,Lanhas,Castanheira,Jinxiu,Palmeira das Missões,Sinchao,El Refugio,Pali,General Alvear,Arroyo Seco,Estancia,Xinhuang,Estoi,Tekes,Torre,Fandriana,Tiro,Eirado,Xin’an,Vila Real de Santo António,São Paio de Gramaços,Las Varillas,Camilo Aldao,Ordem,Skovorodino,Shijia,Ash Sharyah,Tupesy,Dizhai,Altagracia de Orituco,Chapecó,Aktogay,Bucay,Porto Feliz,Moyale,Kuma,Al Ghayl,Basoko,Grand Forks,Slavgorod,Eshan,Bemposta,Vitrolles,Kadupayung,Colonia Aurora,Sobreira,Yingchengzi,Yuhuangding,Zhaitou,Kadujajar,Loma Bonita,Jinshan,Pyrzyce,Lorut,Bazhu,Pingle,Olival,Mina Clavero,Donskoye,Marseille,Iracemápolis,Yijing,Arevshat,Salon-de-Provence,Niba,Badong,Ceres,Guzhen,Berlín,Arrabal,Lodwar,San Carlos,Nieszawa,Villa Mercedes,Shijia,Esquipulas,Suvorovskaya,Campo Viera,Noyakert,Viseu,Qingzhou,Telč,Kankan,Zhangdian,Jaroměř,Toulon,La Trinidad,Carvalhal,Coronel Vivida,Migori,Chư Sê,Puyang,Polkowice,Várzea,El Triunfo,Widuchowa,Ganhe,La Garenne-Colombes,Jucás,Avelar,Mahendranagar,Patani,Qiryat Yam,Lajeosa do Mondego,Fundong,Maia,Santa Elena,Opatovice nad Labem,Casal,Las Toscas,Uzdin,Kälviä,Marinha,Gelemso,Heze,Maringá
+#######################################
+Sunny city advice 5
+Name : Petr
+City : Ichuña
+Country : PE
+Gross Annual Income : 87496.77 PEN
+Gross Annual Income in EUR : 21819.43 EUR
+Weekly Income in EUR : 420 EUR

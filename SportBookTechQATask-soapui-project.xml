@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<wsdl:definitions name="SportBookTechQATask" targetNamespace="http://www.examples.com/wsdl/SportBookTechQATask.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.examples.com/wsdl/SportBookTechQATask.wsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:message name="SayHiRequest">
+        <wsdl:part name="text" type="xsd:string"/>
+    </wsdl:message>
+    <wsdl:message name="SayHiResponse">
+        <wsdl:part name="text" type="xsd:string"/>
+    </wsdl:message>
+
+    <wsdl:portType name="Hello_PortType">
+        <wsdl:operation name="sayHi">
+            <wsdl:input message="tns:SayHiRequest"/>
+            <wsdl:output message="tns:SayHiResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="Hello_Binding" type="tns:Hello_PortType">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="sayHi">
+            <soap:operation soapAction="sayHi"/>
+            <wsdl:input>
+                <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:examples:chadservice" use="encoded"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:examples:chadservice" use="encoded"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="Hello_Service">
+        <wsdl:documentation>WSDL File for HelloService</wsdl:documentation>
+        <wsdl:port binding="tns:Hello_Binding" name="Hello_Port">
+            <soap:address location="http://www.examples.com/chad/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

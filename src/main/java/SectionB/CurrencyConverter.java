@@ -33,6 +33,7 @@ public class CurrencyConverter {
 		} catch (Exception e) {
 			logger.severe(e.getMessage());
 		}
+		System.out.println("Currency successfully converted to EUR");
 		return null;
 	}
 }
